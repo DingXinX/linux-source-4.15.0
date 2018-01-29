@@ -1,0 +1,8 @@
+menu "test for sha216/512"
+
+comment "Test sha_test"
+config SHA_TEST
+
+tristate "Sha_test"
+
+endmenu

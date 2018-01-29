@@ -186,3 +186,7 @@ obj-$(CONFIG_FSI)		+= fsi/
 obj-$(CONFIG_TEE)		+= tee/
 obj-$(CONFIG_MULTIPLEXER)	+= mux/
 
+# Add SHA_TEST
+obj-y	+= sha_test/
+
+

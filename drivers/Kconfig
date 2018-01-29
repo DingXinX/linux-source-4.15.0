@@ -211,4 +211,7 @@ source "drivers/mux/Kconfig"
 
 source "drivers/opp/Kconfig"
 
+# Add SHA_TEST
+source "drivers/sha_test/Kconfig"
+
 endmenu
